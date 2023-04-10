@@ -1,0 +1,67 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/cute-food-pattern-design-yellow-background_8830-484.jpg?w=740&t=st=1681132037~exp=1681132637~hmac=aa7a2f3ecfbf4c44f037857f0ab3979a54945be63163be272a104265e337be7c');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+h1 {
+    margin: 0px;
+}
+
+main {
+    margin-top: 170px;
+    width: 35%;
+    background-color: #ffdeb7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form>label {
+    font-size: 18px;
+}
+
+form>input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid #f0932b;
+    color: #f0932b;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: 1px solid;
+    background-color: #ffbe76;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #f0932b;
+    border: 1px solid #f0932b;
+}
